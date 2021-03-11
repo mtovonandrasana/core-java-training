@@ -120,6 +120,20 @@ public class NestedClasses {
 		
 		return readTodayOnly.checkBooks();
 	}
+	
+// TODO:
+//	TODO: Static Nested Classes
+	/**
+	 * A static nested class is a static class defined at the member level.<br>
+	 * It can be instantiated without an object of the enclosing class, <br>
+	 * so it can't access the instance variables without an explicit object of the enclosing class.
+	 * @author MTovonandrasana
+	 *
+	 */
+	static class Nested {
+		private int price = 12;
+	}
+//TODO:
 
 	public static void main(String... args) {
 		NestedClasses nestedClasses = new NestedClasses();
@@ -133,6 +147,10 @@ public class NestedClasses {
 		// Local Inner Class
 		nestedClasses.calculate();
 		System.out.println(nestedClasses.readBook());
+		
+		//Static Nested class
+		Nested nested = new Nested();
+		System.out.println(nested.price);
 	}
 	
 	

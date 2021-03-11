@@ -105,8 +105,6 @@ public class Car {
 				return false;
 		} else if (!name.equals(other.name))
 			return false;
-		if (speed != other.speed)
-			return false;
 		if (type != other.type)
 			return false;
 		return true;

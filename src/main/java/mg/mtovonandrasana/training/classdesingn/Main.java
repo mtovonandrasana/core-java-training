@@ -8,6 +8,7 @@ public class Main {
 		Car myCar = new Car(12, Type.W4X4, "Toyota pickup", 260);
 		myCar.getType().printCarType();
 		System.out.println(myCar.toString());
+		System.out.println(Type.MINIIBUS.ordinal());
 		
 	}
 }
