@@ -32,7 +32,7 @@ public class NestedClasses {
 		public int repeat = 3;
 		public void go() {
 			for(int i = 0; i<repeat; i++) {
-				System.out.println(greeting + " N°" +i);
+				System.out.println(greeting + " NÂ°" +i);
 			}
 		}
 	}
