@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 /**
- * <h3>Unbounded wildcard</h3> 
+ * <h3>Unbounded wildcard</h3>  (<i>Immutable</i>)
  *  syntax  => '?'<br>
  *  example => {@code List<?> l = new ArrayList<String>();}<br>
- *  <h3>Wildcard with an upper bound</h3>
+ *  <h3>Wildcard with an upper bound</h3>  (<i>Immutable</i>)
  *  syntax  => '{@code ? extends type}' <br>
  *  example => {@code List<? extends Exception> l = new ArrayList<RuntimeException>();}<br>
  *  <h3>Wildcard with a lower bound</h3>
